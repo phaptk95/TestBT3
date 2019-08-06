@@ -20,7 +20,7 @@ private Set<LoaiHang> LHang = new HashSet<LoaiHang>(0);
 		
 	}
 	public NhomHang(Integer ID,String TenNH) {
-	
+			
 			this.NHID = ID;
 			this.NH_Ten = TenNH;
 		

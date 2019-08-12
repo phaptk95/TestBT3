@@ -14,6 +14,8 @@ import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 import javax.persistence.UniqueConstraint;
+
+
 @Entity
 @Table(name="tbl_hanghoa",  uniqueConstraints = {@UniqueConstraint(columnNames = {"HH_ID"})})
 
